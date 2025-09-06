@@ -74,7 +74,7 @@ jobs:
       - name: Install dependencies
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          RESEND_ADMIN_EMAIL: ${{ secrets.RESEND_FROM_EMAIL }}
+          RESEND_FROM_EMAIL: ${{ secrets.RESEND_FROM_EMAIL }}
           RESEND_ADMIN_EMAIL: ${{ secrets.RESEND_ADMIN_EMAIL }}
 
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
