@@ -3,7 +3,15 @@
 import { motion } from "framer-motion";
 import { Code, Users, Globe, Database } from "lucide-react";
 import Image from "next/image";
+// @ts-ignore
 import myImage from "../assets/me.JPG";
+// If you haven't already, add a declaration file for images:
+// Create a file named 'images.d.ts' in your project root or 'types' folder with the following content:
+
+// declare module "*.jpg" {
+//   const value: string;
+//   export default value;
+// }
 export function AboutSection() {
   const containerVariants = {
     hidden: { opacity: 0 },
