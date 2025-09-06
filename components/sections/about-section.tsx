@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { Code, Users, Globe, Database } from "lucide-react";
 import Image from "next/image";
-import myImage from "../assets/me.jpg";
+import myImage from "../assets/me.JPG";
 export function AboutSection() {
   const containerVariants = {
     hidden: { opacity: 0 },
