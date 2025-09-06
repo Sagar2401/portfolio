@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { Code, Users, Globe, Database } from "lucide-react";
 import Image from "next/image";
-
+import myImage from "../assets/me.jpg";
 export function AboutSection() {
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -61,7 +61,7 @@ export function AboutSection() {
             transition={{ duration: 0.8 }}
           >
             <Image
-              src="/me.JPG"
+              src={myImage}
               alt="About Sagar"
               width={400}
               height={400}
