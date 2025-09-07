@@ -53,7 +53,7 @@ export function ExperienceSection() {
       company: "Freelance",
       period: "Apr 2023 - May 2024",
       description:
-        "Worked with service-based company overseeing numerous projects and ensuring successful delivery. Effectively communicated with clients, met project deadlines, and expanded knowledge by learning new technologies.",
+        "Worked with Diffrent clients to overseeing numerous projects and ensuring successful delivery. Effectively communicated with clients, met project deadlines, and expanded knowledge by learning new technologies.",
       skills: [
         "React",
         "Node.js",
