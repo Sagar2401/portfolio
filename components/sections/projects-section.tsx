@@ -97,7 +97,7 @@ export function ProjectsSection() {
       live: "https://www.complyexchange.com/",
     },
     {
-      title: "ConinConcern",
+      title: "Coin-Concern",
       description:
         "Developed the frontend for a global fintech news platform, engineering responsive UIs with React to integrate real-time crypto price charts and third-party data APIs, ensuring a seamless experience for a high-traffic audience.",
       image: "/placeholder.svg?height=300&width=500&text=E-commerce+Platform",
