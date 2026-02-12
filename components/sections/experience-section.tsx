@@ -51,7 +51,7 @@ export function ExperienceSection() {
     {
       title: "Software Developer",
       company: "Freelance",
-      period: "Apr 2023 - May 2024",
+      period: "Sep 2023 - May 2024",
       description:
         "Worked with Diffrent clients to overseeing numerous projects and ensuring successful delivery. Effectively communicated with clients, met project deadlines, and expanded knowledge by learning new technologies.",
       skills: [

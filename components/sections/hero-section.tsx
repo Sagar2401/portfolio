@@ -150,6 +150,12 @@ export function HeroSection({ scrollToSection }: HeroSectionProps) {
               variant="outline"
               size="lg"
               className="px-8 py-3 rounded-full bg-transparent"
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/1J0EYCEZ5uXHrEFaxSSmRPQuMwdzWTatT/view?usp=sharing",
+                  "_blank",
+                )
+              }
             >
               Download CV
             </Button>
@@ -162,12 +168,13 @@ export function HeroSection({ scrollToSection }: HeroSectionProps) {
             className="flex space-x-6"
           >
             {[
-              { Icon: Github, href: "https://github.com/SagarDhandhukiya" },
+              { Icon: Github, href: "https://github.com/Sagar2401" },
               {
                 Icon: Linkedin,
                 href: "https://linkedin.com/in/sagardhandhukiya",
               },
-              { Icon: Mail, href: "mailto:sagar.dhandhukiya@example.com" },
+
+              { Icon: Mail, href: "mailto:prajaptisagar81410@gmail.com" },
             ].map(({ Icon, href }, index) => (
               <motion.a
                 key={index}

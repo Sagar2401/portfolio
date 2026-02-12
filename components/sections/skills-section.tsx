@@ -1,9 +1,19 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Code2, Database, Palette, FileText, Settings, TestTube, RefreshCw, Zap, Sparkles } from "lucide-react"
+import { motion } from "framer-motion";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import {
+  Code2,
+  Database,
+  Palette,
+  FileText,
+  Settings,
+  TestTube,
+  RefreshCw,
+  Zap,
+  Sparkles,
+} from "lucide-react";
 
 export function SkillsSection() {
   const containerVariants = {
@@ -14,7 +24,7 @@ export function SkillsSection() {
         staggerChildren: 0.1,
       },
     },
-  }
+  };
 
   const itemVariants = {
     hidden: { y: 20, opacity: 0 },
@@ -25,7 +35,7 @@ export function SkillsSection() {
         duration: 0.6,
       },
     },
-  }
+  };
 
   const skillGroups = [
     {
@@ -36,44 +46,67 @@ export function SkillsSection() {
     {
       title: "State Management & Data",
       icon: Database,
-      skills: ["Redux", "Zustand", "React Query", "SWR", "GraphQL", "REST API"],
+      skills: [
+        "Redux",
+        "Zustand",
+        "React Query",
+        "SWR",
+        "GraphQL",
+        "REST API",
+        "React Hook Form",
+        "Formik",
+        "JWT",
+      ],
     },
     {
       title: "Styling & UI",
       icon: Palette,
-      skills: ["Tailwind CSS", "Styled Components", "Responsive Design", "Mobile First Design"],
+      skills: [
+        "Tailwind CSS",
+        "Styled Components",
+        "Responsive Design",
+        "Mobile First Design",
+        "SSR",
+        "SSG",
+        "CSR",
+      ],
     },
-    {
-      title: "Forms & Validation",
-      icon: FileText,
-      skills: ["React Hook Form", "Formik", "JWT"],
-    },
+
     {
       title: "Build Tools & Dev",
       icon: Settings,
-      skills: ["Vite", "Webpack", "Babel", "ESLint", "Prettier", "Git", "GitHub"],
+      skills: [
+        "Vite",
+        "Webpack",
+        "Babel",
+        "ESLint",
+        "Prettier",
+        "Git",
+        "GitHub",
+      ],
     },
     {
       title: "Testing & Quality",
       icon: TestTube,
       skills: ["Jest", "React Testing Library", "Cypress", "Storybook"],
     },
+
     {
-      title: "Rendering Patterns",
-      icon: RefreshCw,
-      skills: ["SSR", "SSG", "CSR"],
-    },
-    {
-      title: "Performance & Tools",
-      icon: Zap,
-      skills: ["Lighthouse", "Performance Optimization", "Axios"],
-    },
-    {
-      title: "Design & Collaboration",
+      title: "Web3 & Blockchain",
       icon: Sparkles,
-      skills: ["Figma"],
+      skills: [
+        "Web3.js",
+        "Wagmi",
+        "Ethereum",
+        "Polygon",
+        "BNB Chain",
+        "Arbitrum",
+        "MetaMask",
+        "Wallet Connect",
+        "Multi-chain Integrations",
+      ],
     },
-  ]
+  ];
 
   return (
     <section id="skills" className="py-20 px-4 bg-background">
@@ -91,15 +124,18 @@ export function SkillsSection() {
           >
             My <span className="text-primary">Skills</span>
           </motion.h2>
-          <motion.p variants={itemVariants} className="text-lg sm:text-xl text-muted-foreground max-w-4xl mx-auto">
-            A comprehensive toolkit of modern technologies and frameworks I use to build exceptional web applications
-            and blockchain solutions.
+          <motion.p
+            variants={itemVariants}
+            className="text-lg sm:text-xl text-muted-foreground max-w-4xl mx-auto"
+          >
+            A comprehensive toolkit of modern technologies and frameworks I use
+            to build exceptional web applications and blockchain solutions.
           </motion.p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {skillGroups.map((skillGroup, index) => {
-            const IconComponent = skillGroup.icon
+            const IconComponent = skillGroup.icon;
             return (
               <motion.div
                 key={index}
@@ -129,7 +165,10 @@ export function SkillsSection() {
                           initial={{ opacity: 0, scale: 0.8 }}
                           whileInView={{ opacity: 1, scale: 1 }}
                           viewport={{ once: true }}
-                          transition={{ duration: 0.3, delay: skillIndex * 0.1 }}
+                          transition={{
+                            duration: 0.3,
+                            delay: skillIndex * 0.1,
+                          }}
                           whileHover={{ scale: 1.05 }}
                         >
                           <Badge
@@ -144,10 +183,10 @@ export function SkillsSection() {
                   </CardContent>
                 </Card>
               </motion.div>
-            )
+            );
           })}
         </div>
       </div>
     </section>
-  )
+  );
 }
