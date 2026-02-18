@@ -34,7 +34,7 @@ export function ProjectsSection() {
 
   const projects = [
     {
-      title: "USERLOVE.IO",
+      title: "UserLove (Uzera)",
       description:
         "Comprehensive user experience platform designed to unlock maximum product potential, emphasizing heightened user engagement, retention, and conversion rates.",
       image: "/placeholder.svg?height=300&width=500&text=UserLove+Platform",
@@ -46,7 +46,7 @@ export function ProjectsSection() {
         "Node.js",
         "PostgreSQL",
       ],
-      live: "https://userlove.io",
+      live: "https://uzera.com/",
     },
     {
       title: "LIVLYT.COM",
