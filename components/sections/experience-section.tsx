@@ -78,7 +78,7 @@ export function ExperienceSection() {
     },
     {
       title: "Full Stack Developer Intern",
-      company: "Gainserv Tech LLP",
+      company: "Casepoint",
       period: "Jan 2022 - March 2023",
       description:
         "Completed a MERN Stack internship where I worked on building a full-stack eCommerce platform from scratch. Implemented features like user authentication, product listing, cart, and order management using MongoDB, Express.js, React.js, and Node.js. Gained practical experience in API development, database design, and integrating frontend with backend while following best practices for performance and security.",
