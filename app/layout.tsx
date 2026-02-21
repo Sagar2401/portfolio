@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className={jetbrainsMono.className}>{children}</body>
-      <GoogleTagManager gtmId={process.env.NEXT_GTM_ID as string} />
+      <GoogleTagManager gtmId={"GTM-W7232QRH"} />
     </html>
   );
 }
