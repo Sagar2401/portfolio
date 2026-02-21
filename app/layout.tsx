@@ -2,6 +2,7 @@ import type React from "react";
 import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className={jetbrainsMono.className}>{children}</body>
+      <GoogleTagManager gtmId={process.env.NEXT_GTM_ID as string} />
     </html>
   );
 }
