@@ -37,38 +37,25 @@ export function ProjectsSection() {
       title: "WorldTradeX",
       description:
         "Global agri-commerce platform. Developed a multi-panel frontend system (Buyer, Seller, Packers/Providers/Distributors, Logistics) with shared data flows, serving diverse user roles from a single unified codebase. Implemented real-time chat and notifications using WebSocket, enabling instant communication and reducing average page load time by approximately 20%. Integrated GraphQL APIs and managed complex application state using Redux Toolkit for predictable, performant data handling across all panels. Built accessibility features including voice-based navigation, improving usability across diverse user types and device capabilities.",
-      image:
-        "/placeholder.svg?height=300&width=500&text=WorldTradeX+Platform",
-      tech: [
-        "React.js",
-        "Next.js",
-        "GraphQL",
-        "Redux Toolkit",
-        "WebSocket",
-      ],
+      image: "/placeholder.svg?height=300&width=500&text=WorldTradeX+Platform",
+      tech: ["React.js", "Next.js", "GraphQL", "Redux Toolkit", "WebSocket"],
       live: "#",
     },
     {
-  title: "WorldTradeX",
-  description:
-    "Built multi-panel frontend (Buyer, Seller, Packers, Providers, Distributors, Logistics) from a unified codebase.Implemented real-time chat and notifications using WebSocket.Reduced average page load time by ~20%"
-  image: "/placeholder.svg?height=300&width=500&text=WorldTradeX+Platform",
-  tech: [
-    "React.js",
-    "Next.js",
-    "GraphQL",
-    "Redux Toolkit",
-    "WebSocket"
-  ],
-  highlights: [
-    "Built multi-panel frontend (Buyer, Seller, Packers, Providers, Distributors, Logistics) from a unified codebase",
-    "Implemented real-time chat and notifications using WebSocket",
-    "Reduced average page load time by ~20%",
-    "Integrated GraphQL APIs with Redux Toolkit for scalable state management",
-    "Added voice-based navigation for accessibility"
-  ],
-  live: "https://www.worldtradex.com/"
-}
+      title: "WorldTradeX",
+      description:
+        "Built multi-panel frontend (Buyer, Seller, Packers, Providers, Distributors, Logistics) from a unified codebase.Implemented real-time chat and notifications using WebSocket.Reduced average page load time by ~20%",
+      image: "/placeholder.svg?height=300&width=500&text=WorldTradeX+Platform",
+      tech: ["React.js", "Next.js", "GraphQL", "Redux Toolkit", "WebSocket"],
+      highlights: [
+        "Built multi-panel frontend (Buyer, Seller, Packers, Providers, Distributors, Logistics) from a unified codebase",
+        "Implemented real-time chat and notifications using WebSocket",
+        "Reduced average page load time by ~20%",
+        "Integrated GraphQL APIs with Redux Toolkit for scalable state management",
+        "Added voice-based navigation for accessibility",
+      ],
+      live: "https://www.worldtradex.com/",
+    },
     {
       title: "UserLove (Uzera)",
       description:
